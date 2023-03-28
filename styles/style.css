@@ -17,6 +17,7 @@ h1 {
   font-family: var(--heding-font-family);
   font-weight: bold;
   font-size: 96px;
+  line-height: 1.5;
 }
 h2 {
   font-size: 64px;
@@ -72,6 +73,24 @@ p {
 }
 .progect-description {
   padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  .progect-description {
+    padding: 0px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  .hero {
+    padding-bottom: 40px;
+    padding-top: 30px;
+  }
 }
 /*.navigation-links {
   display: flex;
